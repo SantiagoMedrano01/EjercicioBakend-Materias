@@ -24,7 +24,6 @@ public class Asignatura {
     @Max(2)
     private int cuatrimestre;
     
-    @NonNull
     private List<Comision> comisiones = new ArrayList<>();
 }
 
